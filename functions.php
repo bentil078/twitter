@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost", "root", "love@2019", "twitter");
+    $link = mysqli_connect("localhost", "root", "", "twitter");
 
     if (mysqli_connect_errno()) {
         
